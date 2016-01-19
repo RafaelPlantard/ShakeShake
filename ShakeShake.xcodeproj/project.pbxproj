@@ -63,9 +63,9 @@
 		53F3CB891C4DD4460059D7AA = {
 			isa = PBXGroup;
 			children = (
+				53F3CB931C4DD4460059D7AA /* Products */,
 				53F3CB941C4DD4460059D7AA /* ShakeShake */,
 				53F3CBAE1C4DD4460059D7AA /* ShakeShakeTests */,
-				53F3CB931C4DD4460059D7AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +83,12 @@
 			children = (
 				53F3CBBC1C4DD46C0059D7AA /* Commons */,
 				53F3CBBB1C4DD4660059D7AA /* Controllers */,
-				53F3CBBA1C4DD45E0059D7AA /* Views */,
-				53F3CB9E1C4DD4460059D7AA /* Main.storyboard */,
-				53F3CBA11C4DD4460059D7AA /* Assets.xcassets */,
-				53F3CBA31C4DD4460059D7AA /* LaunchScreen.storyboard */,
-				53F3CBA61C4DD4460059D7AA /* Info.plist */,
 				53F3CB951C4DD4460059D7AA /* Supporting Files */,
+				53F3CBBA1C4DD45E0059D7AA /* Views */,
+				53F3CBA11C4DD4460059D7AA /* Assets.xcassets */,
+				53F3CBA61C4DD4460059D7AA /* Info.plist */,
+				53F3CBA31C4DD4460059D7AA /* LaunchScreen.storyboard */,
+				53F3CB9E1C4DD4460059D7AA /* Main.storyboard */,
 			);
 			path = ShakeShake;
 			sourceTree = "<group>";
@@ -98,14 +98,14 @@
 			children = (
 				53F3CB961C4DD4460059D7AA /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		53F3CBAE1C4DD4460059D7AA /* ShakeShakeTests */ = {
 			isa = PBXGroup;
 			children = (
-				53F3CBAF1C4DD4460059D7AA /* ShakeShakeTests.m */,
 				53F3CBB11C4DD4460059D7AA /* Info.plist */,
+				53F3CBAF1C4DD4460059D7AA /* ShakeShakeTests.m */,
 			);
 			path = ShakeShakeTests;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		53F3CBBB1C4DD4660059D7AA /* Controllers */ = {
@@ -123,7 +123,7 @@
 				53F3CB9B1C4DD4460059D7AA /* SSViewController.h */,
 				53F3CB9C1C4DD4460059D7AA /* SSViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		53F3CBBC1C4DD46C0059D7AA /* Commons */ = {
@@ -132,7 +132,7 @@
 				53F3CB981C4DD4460059D7AA /* SSAppDelegate.h */,
 				53F3CB991C4DD4460059D7AA /* SSAppDelegate.m */,
 			);
-			name = Commons;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +269,7 @@
 				53F3CB9F1C4DD4460059D7AA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		53F3CBA31C4DD4460059D7AA /* LaunchScreen.storyboard */ = {
@@ -277,6 +278,7 @@
 				53F3CBA41C4DD4460059D7AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +431,7 @@
 				53F3CBB61C4DD4460059D7AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F3CBB71C4DD4460059D7AA /* Build configuration list for PBXNativeTarget "ShakeShakeTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +440,7 @@
 				53F3CBB91C4DD4460059D7AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
