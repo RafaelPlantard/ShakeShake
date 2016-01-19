@@ -1,15 +1,17 @@
 //
-//  ViewController.h
+//  ViewController.m
 //  ShakeShake
 //
 //  Created by Rafael Ferreira on 1/19/16.
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SSViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface SSViewController ()
 
 @end
 
+@implementation SSViewController
+
+@end
