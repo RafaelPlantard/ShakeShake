@@ -14,6 +14,7 @@
 		53F3CBA21C4DD4460059D7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F3CBA11C4DD4460059D7AA /* Assets.xcassets */; };
 		53F3CBA51C4DD4460059D7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F3CBA31C4DD4460059D7AA /* LaunchScreen.storyboard */; };
 		53F3CBB01C4DD4460059D7AA /* ShakeShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F3CBAF1C4DD4460059D7AA /* ShakeShakeTests.m */; };
+		53F3CBBF1C4DD64D0059D7AA /* SSShakeShakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F3CBBE1C4DD64D0059D7AA /* SSShakeShakeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		53F3CBAB1C4DD4460059D7AA /* ShakeShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeShakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F3CBAF1C4DD4460059D7AA /* ShakeShakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeShakeTests.m; sourceTree = "<group>"; };
 		53F3CBB11C4DD4460059D7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F3CBBD1C4DD64D0059D7AA /* SSShakeShakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSShakeShakeView.h; sourceTree = "<group>"; };
+		53F3CBBE1C4DD64D0059D7AA /* SSShakeShakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSShakeShakeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		53F3CBBA1C4DD45E0059D7AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				53F3CBBD1C4DD64D0059D7AA /* SSShakeShakeView.h */,
+				53F3CBBE1C4DD64D0059D7AA /* SSShakeShakeView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			files = (
 				53F3CB9D1C4DD4460059D7AA /* SSViewController.m in Sources */,
 				53F3CB9A1C4DD4460059D7AA /* SSAppDelegate.m in Sources */,
+				53F3CBBF1C4DD64D0059D7AA /* SSShakeShakeView.m in Sources */,
 				53F3CB971C4DD4460059D7AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
